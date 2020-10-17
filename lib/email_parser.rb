@@ -11,9 +11,6 @@ class EmailAddressParser
         @email_addresses
     end 
     
-    # def parse=(email_addresses)
-    #     @email_addresses = email
-    #     (@email_addresses.scan(/[^,]/).join).split
-    # end
+   attr_accessor :email_addresses
     
 end
